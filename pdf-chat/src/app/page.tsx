@@ -12,7 +12,7 @@ export default function Home() {
           <p className="text-sm font-semibold text-gray-700">PDF Chat is now public!</p>
         </div>
         <h1 className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl text-center">
-          Chat with your <span className="text-blue-600">PDF files</span> quickly and easily.
+          Chat with your <span className="text-green-600">PDF files</span> quickly and easily.
         </h1>
         <p className="mt-5 max-w-prose text-zinc-700 sm:text-lg text-center">
           PDF Chat allows you to have conversations with your documents.
@@ -20,7 +20,7 @@ export default function Home() {
         </p>
         <Link className={buttonVariants({
           size: 'lg',
-          className: 'mt-8'
+          className: 'mt-8 bg-green-500',
         })} href='/dashboard' target='_blank'>
           Get started <ArrowRight className="ml-2 h-5 w-5" />
         </Link>
@@ -33,7 +33,7 @@ export default function Home() {
           <div aria-hidden="true" className="pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
             <div style={{
               clipPath: "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"
-            }} className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" />
+            }} className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#7bdf65] to-[#ff80b5] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" />
           </div>
           <div>
             <div className="max-w-6xl mx-auto px-6 lg:px-8">
@@ -66,7 +66,7 @@ export default function Home() {
             </h2>
             <p className='mt-4 text-lg text-gray-600'>
               Chatting to your PDF files has never been
-              easier than with PDF Chat.
+              easier than with PDF Chat
             </p>
           </div>
         </div>
@@ -75,7 +75,7 @@ export default function Home() {
         <ol className='my-8 space-y-4 pt-8 md:flex md:space-x-12 md:space-y-0'>
           <li className='md:flex-1'>
             <div className='flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
-              <span className='text-sm font-medium text-blue-600'>
+              <span className='text-sm font-medium text-green-600'>
                 Step 1
               </span>
               <span className='text-xl font-semibold'>
@@ -86,7 +86,7 @@ export default function Home() {
                 choose our{' '}
                 <Link
                   href='/pricing'
-                  className='text-blue-700 underline underline-offset-2'>
+                  className='text-green-700 underline underline-offset-2'>
                   pro plan
                 </Link>
                 .
@@ -95,7 +95,7 @@ export default function Home() {
           </li>
           <li className='md:flex-1'>
             <div className='flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
-              <span className='text-sm font-medium text-blue-600'>
+              <span className='text-sm font-medium text-green-600'>
                 Step 2
               </span>
               <span className='text-xl font-semibold'>
@@ -109,7 +109,7 @@ export default function Home() {
           </li>
           <li className='md:flex-1'>
             <div className='flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
-              <span className='text-sm font-medium text-blue-600'>
+              <span className='text-sm font-medium text-green-600'>
                 Step 3
               </span>
               <span className='text-xl font-semibold'>
